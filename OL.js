@@ -35,7 +35,27 @@ let MAKES = {
   * })
   */
   "Acura": {
-    "ILX": {},
+    /**
+    * let trims = document.querySelectorAll("select.trim option:not([value='']")
+    * 
+    * let TRIMS = {}
+    * 
+    * trims.forEach(function(trim) {
+    *   trim = trim.innerHTML.split(" ")
+    *   trim.pop()
+    *   trim = model.join(" ")
+    *   
+    *   TRIMS[trim] = {}
+    * })
+    */
+    "ILX": {
+      "2.0L FWD": {},
+      "2.0L Premium FWD": {},
+      "2.4L AcuraWatch Plus FWD": {},
+      "2.4L FWD": {},
+      "2.4L Premium FWD": {},
+      "2.4L Technology Plus FWD": {}
+    },
     "MDX": {},
     "RDX": {},
     "RLX": {},
