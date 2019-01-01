@@ -1,0 +1,29 @@
+{
+  "name": "transportation",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscarbonell/transportation.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/luiscarbonell/transportation/issues"
+  },
+  "homepage": "https://github.com/luiscarbonell/transportation#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bluebird": "^3.5.3",
+    "browserless": "^4.2.1",
+    "faker": "^4.1.0",
+    "neo-async": "^2.6.0",
+    "puppeteer": "^1.11.0",
+    "zombie": "^6.1.4"
+  }
+}
