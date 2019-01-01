@@ -3,20 +3,45 @@
 // .CSV format
 
 /**
+* Object Structure
+*
+* MAKE.MODEL.TRIM
+*/
+/**
 * let makes = document.querySelectorAll("select.make option:not([value='']")
 * 
-* let OL_Makes = {}
+* let MAKES = {}
 * 
 * makes.forEach(function(make) {
 *   make = make.innerHTML.split(" ")
 *   make.pop()
 *   make = make.join(" ")
 *   
-*   OL_Makes[make] = {}
+*   MAKES[make] = {}
 * })
 */
-let OL_Makes = {
-  "Acura": {},
+let MAKES = {
+  /**
+  * let models = document.querySelectorAll("select.model option:not([value='']")
+  * 
+  * let MODELS = {}
+  * 
+  * models.forEach(function(model) {
+  *   model = model.innerHTML.split(" ")
+  *   model.pop()
+  *   model = model.join(" ")
+  *   
+  *   MODELS[model] = {}
+  * })
+  */
+  "Acura": {
+    "ILX": {},
+    "MDX": {},
+    "RDX": {},
+    "RLX": {},
+    "TLX": {},
+    "TSX": {}
+  },
   "Audi": {},
   "Bentley": {},
   "BMW": {},
